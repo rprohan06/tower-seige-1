@@ -59,7 +59,7 @@ polygon = Bodies.circle(50,200,20);
 World.add(world,polygon);
 
 slingShot = new SlingShot(this.polygon,{x:100,y:200});
-ImageMode (CENTER)
+imageMode (CENTER)
 image(polygon_img,polygon.position.x,polygon.position.y,40,40);
   
 
